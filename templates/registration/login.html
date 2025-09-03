@@ -12,6 +12,7 @@
     <form method="post" class="mt-5">
         {% csrf_token %}
         {{ form|crispy }}
+        For testing the app use "username = temp" and "password = Temp@864"
         <button type='submit' class="w-full text-white bg-blue-500 hover:bg-blue-600 px-3 py-2 rounded-md">
             Login
         </button>
